@@ -1,0 +1,25 @@
+server:
+  port: 9000
+  error:
+    include-stacktrace: never
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: debug
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.NonRegisteringDriver
+    url: jdbc:mysql://sql6.freesqldatabase.com:3306/sql6696438
+    username: sql6696438
+    password: B7K1Q6TbdC
+security:
+  csrf:
+    enabled: false
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        order_updates: true
