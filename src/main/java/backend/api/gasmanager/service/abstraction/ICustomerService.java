@@ -1,9 +1,9 @@
 package backend.api.gasmanager.service.abstraction;
 
 import backend.api.gasmanager.model.CustomerModel;
-import backend.api.gasmanager.model.dto.CustomerDTO;
-import backend.api.gasmanager.response.CustomerRegisterResponse;
+import backend.api.gasmanager.response.CustomerResponse;
 
 public interface ICustomerService {
-    CustomerRegisterResponse addNewCustomer(CustomerModel request);
+    CustomerResponse addNewCustomer(CustomerModel request);
+    CustomerResponse getAllCustomer();
 }
