@@ -1,6 +1,4 @@
 package backend.api.gasmanager;
-
-import org.antlr.v4.runtime.misc.NotNull;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;

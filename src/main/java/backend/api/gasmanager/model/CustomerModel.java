@@ -34,4 +34,5 @@ public class CustomerModel {
     private String password;
     @Column(name = "avatar", nullable = false)
     private String avatar;
+
 }
